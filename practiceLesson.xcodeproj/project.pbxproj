@@ -13,6 +13,8 @@
 		AD59E912286DE5E0001E2B65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD59E910286DE5E0001E2B65 /* Main.storyboard */; };
 		AD59E914286DE5E3001E2B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD59E913286DE5E3001E2B65 /* Assets.xcassets */; };
 		AD59E917286DE5E3001E2B65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD59E915286DE5E3001E2B65 /* LaunchScreen.storyboard */; };
+		AD59E91F286DE7FA001E2B65 /* videoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD59E91E286DE7FA001E2B65 /* videoCell.swift */; };
+		AD59E921286DE973001E2B65 /* videoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD59E920286DE973001E2B65 /* videoModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AD59E913286DE5E3001E2B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD59E916286DE5E3001E2B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD59E918286DE5E3001E2B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD59E91E286DE7FA001E2B65 /* videoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoCell.swift; sourceTree = "<group>"; };
+		AD59E920286DE973001E2B65 /* videoModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				AD59E913286DE5E3001E2B65 /* Assets.xcassets */,
 				AD59E915286DE5E3001E2B65 /* LaunchScreen.storyboard */,
 				AD59E918286DE5E3001E2B65 /* Info.plist */,
+				AD59E91E286DE7FA001E2B65 /* videoCell.swift */,
+				AD59E920286DE973001E2B65 /* videoModule.swift */,
 			);
 			path = practiceLesson;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD59E90F286DE5E0001E2B65 /* ViewController.swift in Sources */,
+				AD59E91F286DE7FA001E2B65 /* videoCell.swift in Sources */,
+				AD59E921286DE973001E2B65 /* videoModule.swift in Sources */,
 				AD59E90B286DE5E0001E2B65 /* AppDelegate.swift in Sources */,
 				AD59E90D286DE5E0001E2B65 /* SceneDelegate.swift in Sources */,
 			);
