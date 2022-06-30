@@ -21,6 +21,8 @@ class videoCell: UITableViewCell {
         
         super.setSelected(selected, animated: animated)
         
+        previewImageView.contentMode = .scaleToFill
+        
     }
 
 }
